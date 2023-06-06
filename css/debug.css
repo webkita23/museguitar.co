@@ -1,0 +1,51 @@
+:root {
+  --primary: #6e57e0;
+  --bg: #010101;
+  --first-color: #2e2e41;
+  --second-color: #5b85ff;
+  --third-color: #434354;
+  --text-fill-color: #fff;
+
+  --box-shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
+  --text-shadow: 0 5px 25px rgba(168, 168, 168, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-row {
+  display: flex;
+  gap: 7rem;
+  justify-content: center;
+}
+.card {
+  width: 12rem;
+  height: 10rem;
+  display: flex;
+}
+
+.card .back img {
+  width: 12rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.card .logo {
+  width: 50px;
+  height: 60px;
+}
+
+.card .tiktok {
+  display: flex;
+  flex-direction: column;
+}
