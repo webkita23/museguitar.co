@@ -148,7 +148,7 @@ body {
 }
 
 .hero {
-  background-image: url('./img/Landing.jpg');
+  background-image: url('../img/Landing.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 140vh;
@@ -247,7 +247,7 @@ body {
 }
 
 .bg .tiktok-card {
-  background: url('./img/tiktok.jpg');
+  background: url('../img/tiktok.jpg');
   background-size: cover;
   border-radius: 5%;
   width: 32rem;
@@ -263,7 +263,7 @@ body {
 }
 
 .bg .shopee-card {
-  background: url('./img/shopee.jpg');
+  background: url('../img/shopee.jpg');
   background-size: cover;
   border-radius: 5%;
   width: 32rem;
@@ -279,7 +279,7 @@ body {
 }
 
 .bg .tokped-card {
-  background: url('./img/tokopedia.jpg');
+  background: url('../img/tokopedia.jpg');
   background-size: cover;
   border-radius: 5%;
   width: 32rem;
